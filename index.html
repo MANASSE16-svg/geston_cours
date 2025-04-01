@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil - Gestion des Cours</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Lien vers un fichier CSS externe -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            background-image: url('Real.jpg'); /* Remplacer par le chemin de votre image */
+            background-size: cover; /* Ajuste la taille de l'image pour couvrir l'élément */
+            background-position: center; /* Centre l'image */
+            background-repeat: no-repeat; /* Ne pas répéter l'image */
+            opacity: 0.9; /* Optionnel: ajuste l'opacité pour un effet de transparence */
+        }
+        header {
+            background: rgba(0, 123, 255, 0.8); /* Utilisation d'une couleur de fond semi-transparente */
+            color: #fff;
+            padding: 15px 0;
+            text-align: center;
+        }
+        h1 {
+            font-size: 2em;
+            margin: 0;
+        }
+        h2 {
+            font-size: 1.5em;
+        }
+        nav {
+            margin: 15px 0;
+        }
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #007BFF;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            text-decoration: underline;
+            color: #0056b3;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 15px;
+            background: rgba(255, 255, 255, 0.8); /* Arrière-plan semi-transparent pour le conteneur */
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .menu-item {
+            background-color: #007BFF;
+            color: #fff;
+            border-radius: 5px;
+            padding: 15px;
+            text-align: center;
+            margin: 10px 0;
+            transition: transform 0.3s, filter 0.3s, background-color 0.3s;
+            cursor: pointer;
+            height: 80px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-image: linear-gradient(to right, #007BFF, #0056b3);
+        }
+        .menu-item:hover {
+            transform: scale(1.05);
+            filter: brightness(1.1);
+            background-color: #0056b3;
+        }
+        footer {
+            text-align: center;
+            margin: 22px 0;
+            padding: 12px;
+            background: rgba(0, 123, 255, 0.8); /* Couleur semi-transparente */
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Bienvenue sur le site de Gestion des Cours</h1>
+    <p>Faculté d'Économie</p>
+</header>
+
+<nav>
+    <a href="cours.html">Cours</a>
+    <a href="professeurs.html">Professeurs</a>
+    <a href="etudiants.html">Étudiants</a>
+    <a href="inscriptions.html">Inscriptions</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<div class="container">
+    <h2>Accédez aux différentes sections ci-dessous</h2>
+    <div class="menu-item"

@@ -1,0 +1,78 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #007BFF;
+    color: #fff;
+    padding: 15px 0; /* Diminuer le rembourrage */
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em; /* Taille du h1 */
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.5em; /* Taille du h2 */
+}
+
+nav {
+    margin: 15px 0;
+}
+
+nav a {
+    margin: 0 10px; /* Diminuer la marge des liens */
+    text-decoration: none;
+    color: #007BFF;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+
+.container {
+    max-width: 800px; /* Largeur maximale du conteneur */
+    margin: 20px auto;
+    padding: 15px; /* Diminuer le rembourrage */
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item {
+    background-color: #007BFF;
+    color: #fff;
+    border-radius: 5px;
+    padding: 8px; /* Diminuer le rembourrage */
+    text-align: center;
+    margin: 5px 0; /* Diminuer la marge */
+    transition: transform 0.3s, filter 0.3s, background-color 0.3s;
+    cursor: pointer;
+    height: 60px; /* Définir une hauteur fixe plus petite */
+    display: flex; /* Utiliser flex pour centrer le contenu */
+    flex-direction: column; /* Alignement vertical */
+    justify-content: center; /* Centrer verticalement */
+    align-items: center; /* Centrer horizontalement */
+}
+
+.menu-item:hover {
+    transform: scale(1.05);
+    filter: brightness(1.1);
+    background-color: #0056b3;
+}
+
+footer {
+    text-align: center;
+    margin: 22px 0;
+    padding: 12px; /* Diminuer le rembourrage */
+    background: #007BFF;
+    color: white;
+}
